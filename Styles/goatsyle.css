@@ -1,0 +1,43 @@
+     body  {font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        color: aqua; }
+       li   {font-size: 14px;
+        font-style: italic;}
+       a    {color: darkmagenta; text-decoration: none;}
+        .bold  {font-weight: bolder; font-size: 17px; 
+            text-decoration: underline;}
+        .homebg {
+            background-image: url('../BGProj.avif');
+        }
+        a:hover{
+            text-decoration: underline;
+            font-weight: bold;
+        }
+        a:visited{
+            color:cornsilk;
+        }
+        .video-container{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0;
+        }
+        .borders{
+            border: 15px solid white;
+        }
+        .tablopos{
+            position: absolute;
+            top: 50px;
+            right: 20px;
+            width: 1300px;
+            height: 1500px;
+        }
+        .imagepos{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 30%;
+        }
+        .texta{
+            text-align: center;
+        }
